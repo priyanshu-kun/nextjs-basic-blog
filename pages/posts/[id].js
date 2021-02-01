@@ -6,7 +6,7 @@ import matter from "gray-matter";
 import remark from 'remark'
 import html from 'remark-html'
 const postsDirectory = path.join(process.cwd(), 'posts');
-import Date from '../../components/date'
+import Date from '../../components/Date'
 import utilStyles from "../../styles/utils.module.css";
 
 export default function Post({ postData }) {

@@ -6,7 +6,7 @@ import utilStyles from '../styles/utils.module.css'
 import path from 'path'
 import matter from 'gray-matter'
 import Link from 'next/link'
-import Date from '../components/date'
+import Date from '../components/Date'
 
 
 export default function home({ allPostsData }) {
