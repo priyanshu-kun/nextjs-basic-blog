@@ -36,6 +36,8 @@
 
 .padding1px {
     padding-top: 1px;
+    text-align: start;
+    /* min-width: 100%; */
 }
 
 .list {

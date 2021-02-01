@@ -5,9 +5,9 @@ import Alert from "../components/Alert"
 function MyApp({ Component, pageProps }) {
   return (
     <Alert>
-      <Layout home={true}>
-        <Component {...pageProps} />
-      </Layout>
+      {/* <Layout home> */}
+      <Component {...pageProps} />
+      {/* </Layout> */}
     </Alert>
 
   )
